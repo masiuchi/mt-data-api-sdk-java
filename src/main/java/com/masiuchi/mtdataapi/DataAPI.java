@@ -4,8 +4,11 @@ import okhttp3.*;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLDecoder;
+import java.net.URLEncoder;
 
 public class DataAPI {
     private static final JSONObject ERROR_JSON = new JSONObject();
@@ -31,6 +34,23 @@ public class DataAPI {
     public OkHttpClient httpClient = new OkHttpClient();
 
     //MARK: - Methods
+
+    public static String urlEncoding(String src) {
+        try {
+            return URLEncoder.encode(src, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            return src;
+        }
+    }
+
+    public static String urlDecoding(String src) {
+        try {
+            return URLDecoder.decode(src, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            return src;
+        }
+    }
+
     private String APIURL() {
         return APIBaseURL + "/" + endpointVersion;
     }
