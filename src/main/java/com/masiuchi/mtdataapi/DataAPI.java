@@ -39,7 +39,7 @@ public class DataAPI {
         return APIBaseURL + "/v2";
     }
 
-    private void resetAuth() {
+    public void resetAuth() {
         token = "";
         sessionID = "";
     }
