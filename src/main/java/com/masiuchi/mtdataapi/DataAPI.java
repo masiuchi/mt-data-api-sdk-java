@@ -15,6 +15,8 @@ public class DataAPI {
     }
 
     //MARK: - Properties
+    public static DataAPI sharedInstance = new DataAPI();
+
     public String token = "";
     public String sessionID = "";
 
@@ -29,13 +31,6 @@ public class DataAPI {
     public OkHttpClient httpClient = new OkHttpClient();
 
     //MARK: - Methods
-    public DataAPI(String apiBaseUrl) {
-        if (apiBaseUrl == null || apiBaseUrl.equals("")) {
-            throw new IllegalArgumentException();
-        }
-        APIBaseURL = apiBaseUrl;
-    }
-
     private String APIURL() {
         return APIBaseURL + "/" + endpointVersion;
     }
