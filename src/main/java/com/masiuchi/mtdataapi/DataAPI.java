@@ -902,7 +902,7 @@ public class DataAPI {
         assetAction(HttpMethod.PUT, siteID, assetID, asset, options, callback);
     }
 
-    public void deleteAsset(String siteID, String assetID, Parameter asset, Parameter options, ActionCallback callback) {
+    public void deleteAsset(String siteID, String assetID, Parameter options, ActionCallback callback) {
         assetAction(HttpMethod.DELETE, siteID, assetID, null, options, callback);
     }
 
