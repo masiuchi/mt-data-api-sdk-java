@@ -1,4 +1,4 @@
-package com.masiuchi.mtdataapi;
+package com.github.masiuchi.mtdataapi;
 
 public class BasicAuth {
     public String username = "";

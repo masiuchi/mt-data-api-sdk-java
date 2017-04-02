@@ -1,4 +1,4 @@
-package com.masiuchi.mtdataapi;
+package com.github.masiuchi.mtdataapi;
 
 public enum HttpMethod {
     GET,

@@ -1,4 +1,4 @@
-package com.masiuchi.mtdataapi;
+package com.github.masiuchi.mtdataapi;
 
 import java.util.HashMap;
 

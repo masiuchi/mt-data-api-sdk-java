@@ -1,4 +1,4 @@
-package com.masiuchi.mtdataapi;
+package com.github.masiuchi.mtdataapi;
 
 import okhttp3.*;
 import org.json.JSONObject;
