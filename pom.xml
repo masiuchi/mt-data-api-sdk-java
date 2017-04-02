@@ -6,7 +6,7 @@
 
     <groupId>com.github.masiuchi</groupId>
     <artifactId>mt-data-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>mt-data-api</name>
