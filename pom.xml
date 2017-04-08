@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <name>mt-data-api</name>
-    <description>A port of mt-data-api-sdk-swift</description>
+    <description>A port of mt-data-api-sdk-swift (https://github.com/movabletype/mt-data-api-sdk-swift)</description>
     <url>https://github.com/masiuchi/mt-data-api-sdk-java</url>
 
     <licenses>
