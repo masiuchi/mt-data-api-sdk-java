@@ -11,14 +11,14 @@ Maven
 <dependency>
     <groupId>com.github.masiuchi</groupId>
     <artifactId>mt-data-api</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 </dependency>
 ```
 
 Grandle
 
 ```java
-compile 'com.github.masiuchi:mt-data-api:0.0.1'
+compile 'com.github.masiuchi:mt-data-api:0.0.2'
 ```
 
 ## License
