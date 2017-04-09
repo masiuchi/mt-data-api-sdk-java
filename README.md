@@ -21,7 +21,7 @@ Grandle
 compile 'com.github.masiuchi:mt-data-api:0.0.2'
 ```
 
-## License
+## License & Copyright
 
 ```
 The MIT License (MIT)
