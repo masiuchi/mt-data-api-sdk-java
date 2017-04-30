@@ -15,7 +15,7 @@ Maven
 </dependency>
 ```
 
-Grandle
+Gradle
 
 ```java
 compile 'com.github.masiuchi:mt-data-api:0.0.2'
